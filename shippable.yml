@@ -7,6 +7,9 @@ php:
   - "7.2" #7.2.5
 
 build: 
-
- ci:
-   - php --version
+  pre_ci_boot:
+    image_name: drydock/u14pytall
+    image_tag: master
+    pull: true
+  ci:
+    - php --version
