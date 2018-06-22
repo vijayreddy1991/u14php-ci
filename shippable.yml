@@ -8,8 +8,8 @@ php:
 
 build: 
   pre_ci_boot:
-    image_name: vijaydocker1991/drydockphp1
-    image_tag: latest
+    image_name: drydock/u14phpall
+    image_tag: master
     pull: true
   ci:
     - php --version
