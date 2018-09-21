@@ -13,5 +13,6 @@ build:
     pull: true
   ci:
     - php --version
+    - phpunit --version
     - composer --version
     
