@@ -22,7 +22,7 @@ build:
     - ~/.phpenv/versions/7.0/bin/php -v
     - ~/.phpenv/versions/7.0/bin/phpunit --version
     - ~/.phpenv/versions/7.1/bin/php -v
-    - ~/.phpenv/versions/7.1/bin/phpunit --version
+    - ~/.phpenv/versions/7.4/bin/phpunit --version
     - ~/.phpenv/versions/7.2/bin/php -v
-    - ~/.phpenv/versions/7.2/bin/phpunit --version
+    - ~/.phpenv/versions/7.4/bin/phpunit --version
     
