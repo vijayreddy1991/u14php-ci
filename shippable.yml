@@ -16,4 +16,13 @@ build:
     - phpunit --version
     - composer --version
     - php --rf ldap_connect
+    - php --version
+    - ~/.phpenv/versions/5.6/bin/php -v
+    - ~/.phpenv/versions/5.6/bin/phpunit --version
+    - ~/.phpenv/versions/7.0/bin/php -v
+    - ~/.phpenv/versions/7.0/bin/phpunit --version
+    - ~/.phpenv/versions/7.1/bin/php -v
+    - ~/.phpenv/versions/7.1/bin/phpunit --version
+    - ~/.phpenv/versions/7.2/bin/php -v
+    - ~/.phpenv/versions/7.2/bin/phpunit --version
     
