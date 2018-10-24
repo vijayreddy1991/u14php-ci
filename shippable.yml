@@ -15,4 +15,5 @@ build:
     - php --version
     - phpunit --version
     - composer --version
+    - php --rf ldap_connect
     
