@@ -11,8 +11,6 @@ build:
     image_tag: master
     pull: true
   ci:
-    - phpbrew ext install gd
-    - apt-get install -y freetype*
     - apt-get install -y libfreetype6
     - php --version
     - phpunit --version
