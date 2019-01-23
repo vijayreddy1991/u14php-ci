@@ -16,7 +16,6 @@ build:
     - composer --version
     - php --rf ldap_connect
     - php --rf imagettftext
-    - php --rf FreeType
-    - php -i
+
   
     
