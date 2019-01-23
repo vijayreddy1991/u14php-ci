@@ -11,11 +11,12 @@ build:
     image_tag: master
     pull: true
   ci:
-    - apt-get install -y libfreetype6
     - php --version
     - phpunit --version
     - composer --version
     - php --rf ldap_connect
+    - php --rf imagettftext
+    - php --rf FreeType
     - php -i
   
     
